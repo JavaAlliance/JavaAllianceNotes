@@ -13,9 +13,7 @@
 |                              Ⅰ                               |                              Ⅱ                               | Ⅲ      | Ⅳ        | Ⅴ    | Ⅵ        | Ⅶ    | Ⅷ      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----- | -------- | ---- | -------- | ---- | ------ |
 | Java[![](D:\alliance\FU~KH807[XOFO}_~I6W6YIQ.png)](https://github.githubassets.com/images/icons/emoji/unicode/1f46b.png) | JavaWeb![](D:\alliance\javaweb.png)[](https://github.githubassets.com/images/icons/emoji/unicode/1f46b.png) | 分布式 | 设计模式 | 算法 | 操作系统 | 网络 | 数据库 |
-|                              Ⅰ                               |                              Ⅱ                               | Ⅲ      | Ⅳ        | Ⅴ    | Ⅵ        | Ⅶ    | Ⅷ      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----- | -------- | ---- | -------- | ---- | ------ |
-| Java[![](D:\alliance\FU~KH807[XOFO}_~I6W6YIQ.png)](https://github.githubassets.com/images/icons/emoji/unicode/1f46b.png) | JavaWeb![](D:\alliance\javaweb.png)[](https://github.githubassets.com/images/icons/emoji/unicode/1f46b.png) | 分布式 | 设计模式 | 算法 | 操作系统 | 网络 | 数据库 |
+
 
 
 
