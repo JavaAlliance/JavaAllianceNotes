@@ -58,7 +58,12 @@ IOC：即“控制反转”，是一种设计思想，是指<font color="red">�
 
 **<font color="Blue">以下是三种较常见的 ApplicationContext 实现方式 </font>：**
 
-![1555912398228](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555912398228.png)
+1、ClassPathXmlApplicationContext：从classpath的XML配置文件中读取上下文，并生成上下文定义。应用程序上下文从程序环境变量中取得。 ApplicationContext context = new ClassPathXmlApplicationContext(“bean.xml”);
+
+2、FileSystemXmlApplicationContext ：由文件系统中的XML配置文件读取上下文，需要指定完整路径。ApplicationContext context = new FileSystemXmlApplicationContext(“bean.xml”);
+
+3、XmlWebApplicationContext：由Web应用的XML文件读取上下文，在web.xml中配置。
+
 
 
 
