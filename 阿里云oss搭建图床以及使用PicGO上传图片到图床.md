@@ -61,7 +61,7 @@ PicGo是一个开源项目，可以用来快捷上传图片到图床。
 - accesskey和accesskeySecret可以从阿里云控制台获取。
 - 存储空间名是bucket的名字。
 - 存储区域到阿里云OSS控制台去找，例如下图中存储区域就是 oss-cn-shenzhen
-- ![1556032541014](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556032541014.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190423232226.png)
 - 存储路径是存储图片的位置，要求以/结尾。
 - 自定义域名可以不填写。
 
