@@ -26,5 +26,8 @@
 ## 设计模式 :hammer:
 -[面试必问：设计模式篇](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%9D%A2%E8%AF%95%E5%BF%85%E9%97%AE%EF%BC%9A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%AF%87.md)
 
+## 其他工具知识 
+-[阿里云oss搭建图床以及使用PicGO上传图片到图床]()
+
 
 
