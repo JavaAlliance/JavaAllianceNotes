@@ -29,8 +29,7 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417185048906.png)
 
 ②接下来看过滤器中有两个参数的情况
-
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424155603.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424160644.png)
 
 运行效果截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418093611396.png)
