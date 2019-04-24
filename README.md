@@ -35,5 +35,5 @@ Java全栈开发大联盟QQ群：499935538
 
 -[Vue学习总结第三天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Vue.js%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%AC%E4%B8%89%E5%A4%A9.md)
 
-
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424162437.png)
 
