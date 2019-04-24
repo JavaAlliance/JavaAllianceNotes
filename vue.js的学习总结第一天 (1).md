@@ -9,6 +9,7 @@
 以上表述的就是“闪烁问题”。   接下来说一下插值表达式的“闪烁问题”的解决方案
 
 第一种方案：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416163713212.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 第二种方案：  直接使用v-text指令，这个指令的作用就是说“如果msg还没有解析到，那就不显示，等到msg解析到了才显示在浏览器上”
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416164121956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
