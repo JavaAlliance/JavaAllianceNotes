@@ -13,10 +13,13 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416163713212.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 
 第二种方案：  直接使用v-text指令，这个指令的作用就是说“如果msg还没有解析到，那就不显示，等到msg解析到了才显示在浏览器上”
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416164121956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 但是v-cloak指令和v-text指令的作用是不是完全一样没有什么区别呢？当然不是，看下图中讲解它们的区别
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416164549858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 当msg里面含有<h1这种标签时，会怎么样呢？ 看下面2张图即可
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416165339593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416165511762.png)
 但是如果我要把上面msg里面的<h1解析成标签，而不是普通文本，该怎么办呢？   用v-html标签即可，见下面2张图即可
