@@ -6,19 +6,19 @@
 
 ​                 **前提条件：** 首先我们需要导入包
 
-![1555659859084](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555659859084.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145536.png)
 
 ###                    ①vue的ajax方式的get请求
 
 ​    如果是回调成功，那么得到的result.body.status就等于0，表示成功了
 
-![1555659503141](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555659503141.png) 
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145608.png)
 
 ​              
 
 ###                    ②vue的ajax方式的post请求
 
-![1555658931100](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555658931100.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145629.png)
 
 ​       
 
@@ -26,11 +26,11 @@
 
 ​                                     （jsoup方式和get方式不同的地方就是“jsoup可以在ajax里面实现跨域请求”）
 
-![1555659795141](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555659795141.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145655.png)
 
 ​                                   jsoup的详解如下：
 
-![1555660167099](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555660167099.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145715.png)
 
 ​         
 
@@ -40,15 +40,15 @@
 
 ​     先阐述问题：
 
-![1555821808698](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555821808698.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145735.png)
 
 解决方案如下：配置全局的数据接口的根域名
 
-![1555821671213](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555821671213.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145752.png)
 
 然后再修改原路径即可，系统运行时会自动进行拼接
 
-![1555821897969](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555821897969.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145835.png)
 
 
 
@@ -56,16 +56,15 @@
 
 阐述问题：每次写请求时都要在后面加上emulateJSON:true，写起来会很麻烦的
 
-![1555822068281](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555822068281.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145857.png)
 
 解决办法：配置全局启用emulateJSON选项
 
-![1555822505188](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555822505188.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145922.png)
 
 然后我们就可以不用每次都在请求里面写emulateJSON:true了
 
-![1555822483553](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555822483553.png)
-
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145937.png)
 
 
 
@@ -74,7 +73,7 @@
 
 opacity：不透明度，模糊，不清晰，当opacity=0时，就是“隐形的”，当opacity=1时就是“完全的实心”
 
-![1555983855893](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555983855893.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424145959.png)
 
 v-enter,v-enter-to,v-leave,v-leave-to都是时间点
 
@@ -88,10 +87,9 @@ v-leave-active: 定义离开过渡的结束状态。在离开过渡被触发时�
 先看代码部分如下：    讲解：可以看到在.v-enter， .v-leave-to里面写了一个 transform: translateX(100px);就是说“进入的起点”和“离开的终点”的位置都在（100px，0）处，然后要注意transition组件必须要包在一个v-if或v-show的外面，不然的话不起作用      
 
 效果就是：“当我们点击input按钮时，文字先从右边往左边移动，一边移动一边从”隐形“变得”可见“（这是enter过程），当我们再次点击input按钮时，文字从左往右移动，一边移动一边从”可见“变成”隐形“
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424150022.png)
 
-![1555988038827](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555988038827.png)
-
-![1555987142900](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1555987142900.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424150039.png)
 
 
 
