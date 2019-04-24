@@ -1,8 +1,5 @@
-                                          
-                                          
-                                          # vue.js学习总结第一天
-                                          
-                                           
+#                          Vue.js学习总结第一天
+
 **1.插值表达式写法**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416162233547.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 **2.vue.js里的“插值表达式”的闪烁问题的解决**
@@ -139,14 +136,3 @@
 **10、v-if和v-show的使用及特点**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417145239919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417145420808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
-
-
-
-
-
-
-
-
-
-
-
