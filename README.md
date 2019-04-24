@@ -7,6 +7,8 @@
 每篇文章都会有笔者更加详细的一系列博客可供参考，这些文章也被我发表在CSDN技术博客上，整理成博客专栏，欢迎查看━(*｀∀´*)ノ亻!
 
 详细内容请见我的CSDN技术博客：<https://blog.csdn.net/qq_40241957>
+欢迎大家关注我的微信公众号，专为Java全栈开发而生！！！  QQ群：
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424115802.png)
 
 ​                    
 
