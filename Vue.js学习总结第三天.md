@@ -156,4 +156,4 @@ v-leave-active: 定义离开过渡的结束状态。在离开过渡被触发时�
 </html>
 ```
 
-小疑问：
+小疑问：我们可以看到在transtion标签里头总有一个v-if或者v-show,这是触发动画开始的必要条件当v-if或者v-show=true时开始触发动画，也就是说v-if=“flag”里面的flag为true或flase影响很大，而在上述afterEnter()方法里写了this.flag=false,之后就不展示动画了所以小球消失，也可以理解为v-if=“flase”时，这个元素消失了（这两种解释都可以）
