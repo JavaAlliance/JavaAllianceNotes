@@ -11,9 +11,9 @@ Java全栈开发大联盟QQ群：499935538
 
   
 
-|                              Ⅰ                               |                              Ⅱ                               | Ⅲ      | Ⅳ        | Ⅴ    | Ⅵ        | Ⅶ    | Ⅷ      | Ⅸ |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----- | -------- | ---- | -------- | ---- | ------ |------|
-| Java[:couple:](#Java-couple) | JavaWeb[:coffee:](#JavaWeb-coffee)| 分布式[:sweat_drops:](#分布式-sweat_drops) | 设计模式[:hammer:](#设计模式-hammer) | 算法[:pencil2:](#算法-pencil2) | 操作系统[:computer:](#操作系统-computer) | 网络[:cloud:](#网络-cloud) | 数据库 [:floppy_disk:](#数据库-floppy_disk)|其他工具知识|
+|                              Ⅰ                               |                              Ⅱ                               | Ⅲ      | Ⅳ        | Ⅴ    | Ⅵ        | Ⅶ    | Ⅷ      | Ⅸ |Ⅹ|
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----- | -------- | ---- | -------- | ---- | ------ |------|------|
+| Java[:couple:](#Java-couple) | JavaWeb[:coffee:](#JavaWeb-coffee)| 分布式[:sweat_drops:](#分布式-sweat_drops) | 设计模式[:hammer:](#设计模式-hammer) | 算法[:pencil2:](#算法-pencil2) | 操作系统[:computer:](#操作系统-computer) | 网络[:cloud:](#网络-cloud) | 数据库 [:floppy_disk:](#数据库-floppy_disk)|其他工具知识|前端汇总|
 
 ## Java :couple:
  -[Java语言相关的问题](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Java%E8%AF%AD%E8%A8%80%E7%9B%B8%E5%85%B3%E7%9A%84%E9%97%AE%E9%A2%98.md)
@@ -27,6 +27,9 @@ Java全栈开发大联盟QQ群：499935538
 
 ## 其他工具知识 
 -[阿里云oss搭建图床以及使用PicGO上传图片到图床](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91oss%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8PicGO%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A.md)
+
+## 前端汇总
+-[Vue学习总结第一天]()
 
 
 
