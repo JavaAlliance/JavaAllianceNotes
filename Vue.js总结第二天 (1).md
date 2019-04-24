@@ -1,21 +1,34 @@
-﻿**1.品牌案例---完成品牌列表的添加功能**
+#                                                Vue.js学习总结第二天
+
+**1.品牌案例---完成品牌列表的添加功能**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417165032239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 代码如下：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417165221582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417164816983.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 下面是添加add的代码  （注意push()是从尾部插入的）
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041716495819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 再来看删除del()方法
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417165945879.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **2.根据关键字实现对数组的过滤**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417183220382.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417183056730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **3、Vue中全局过滤器的基本使用**（所谓全局的意思就是说“每个vue对象都可以使用（解释：假设每个vue对象绑定一个div框），那么全局的意思就是说每个div里面都可以使用到该全局过滤器”），下文第4点我们会讲“**私有过滤器**”
+
 ①过滤器只有一个参数时
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417184925328.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417185048906.png)
+
 ②接下来看过滤器中有两个参数的情况
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418093318406.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 运行效果截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418093611396.png)
 ③一个对象调用多个过滤器的情况
