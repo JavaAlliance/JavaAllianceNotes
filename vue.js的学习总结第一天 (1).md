@@ -34,6 +34,7 @@
 **4.v-on指令的用法**  v-on指令也有缩写，@，效果是一样的
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041617380277.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416173240377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 效果图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416173346549.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 
@@ -42,6 +43,7 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416180648190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 上图还有一种写法，解决this问题，通过=>说明里面的this是和setInterval()函数外面的this一致
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416180853332.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 效果图如下：下面的文字不断地向左移动
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416180718467.png)
@@ -53,6 +55,7 @@
 
 ②在data里面添加一个intervalId属性变量，然后让setInterval()方法的返回值（定时器的id）赋给该属性变量
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416183219515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 停止定时器的代码如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416183440565.png)
 
@@ -73,23 +76,31 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417103837258.png)
 
 **7、v-model指令的使用**
+
 可以实现数据的双向绑定，就是说修改input框里的内容时，vue对象的data.msg值也跟着变，而v-bind却没有双向绑定的功能
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041711050368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **8、vue中通过属性绑定为元素设置class**
+
 先写css如下
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417130601996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417131726560.png)
 或者是按下面这样写也可以
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417132223421.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **9.v-for指令的四种使用方式**
+
 ①v-for指令循环普通数组
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417133653392.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 运行效果图如下：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417133720596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 
 ②v-for指令遍历对象数组
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417134101629.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 运行效果图如下：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417134120213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
@@ -100,10 +111,12 @@
 运行效果截图如下：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417135805673.png)
+
 ④v-for指令遍历数字
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417140228590.png)
 
 运行效果截图如下：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417140412387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 
 **9、v-for中key的使用**
