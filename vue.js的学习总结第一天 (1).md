@@ -26,14 +26,17 @@
 但是如果我要把上面msg里面的<h1解析成标签，而不是普通文本，该怎么办呢？   用v-html标签即可，见下面2张图即可
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416170149970.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416165939147.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **3.v-bind指令的使用** 当然了v-bind指令也可以不写，直接写成：也可以，如下图所示，效果见下面第2张图
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416171411180.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416171642279.png)
 
-**4.v-on指令的用法**  v-on指令也有缩写，@，效果是一样的![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041617380277.png)
+**4.v-on指令的用法**  v-on指令也有缩写，@，效果是一样的
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041617380277.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416173240377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 效果图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416173346549.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
+
 **5.制作“跑马灯”效果（类似于放广告的电子板文字不断的向一个方向移动）**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416180422799.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416180648190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjQxOTU3,size_16,color_FFFFFF,t_70)
