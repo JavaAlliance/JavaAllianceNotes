@@ -57,5 +57,61 @@ transition-group 的主要作用是给其子元素设定一个统一的过渡样
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190425213003.png)
 
+##   五、使用Vue提供的<component标签来实现组件切换
+
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190425213441.png)
+
+##   六、组件切换---应用切换动画和mode方式
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title></title>
+        <!-- 引入vue.js -->
+        <script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
+        <style>
+            .v-enter-active,    //动画进入过程
+            .v-leave-active {    //动画离开过程
+                transition: all .8s ease;//“all”代表被transition包裹的所有元素一起移动
+            }    
+            .v-enter, .v-leave-to{  //整体动画过程：从右边往左边移动，移动过程中从透明逐渐变成不透明     //（因为初始坐标是  translateX(100px)），//然后离开时从左边往右边 
+                           //移动过程中从不透明逐渐变成透明直至消失，  动画开始的起点和消失之后的终点                                    //是一个点 
+                transform: translateX(100px); //动画进入时的起点，和动画离开后消失的终点
+                opacity: 0;//不透明度为0，说明进入时和离开后都是消失状态
+            }
+        </style>
+    </head>
+    <body>
+        <div id='app'>
+            <a href="" @click.prevent="componentId='login'">登录</a>
+            <a href="" @click.prevent="componentId='register'">注册</a>
+            <!-- component是一个占位符，:is属性，可以用来指定要展示的组件名称 -->
+            <transition mode="out-in">    //这里的mode=“out-in”的作用是让组件替换时（一个组件离                                   //开，一个组件进入），按顺序显示动画，而不是说“一个组件的离开和另                                  //一个组件的进入”的动画一起显示
+                <component :is="componentId"></component>
+            </transition>           
+        </div>  
+    </body>
+    <script>
+        Vue.component('login',{
+            template:'<h3>登录组件</h3>'
+        })
+        Vue.component('register',{
+            template:'<h3>注册组件</h3>'
+        })
+        // 实例化vue对象
+        let vm = new Vue({
+            // 绑定对象
+            el:'#app',
+            data:{
+                flag:true,
+                componentId:'login'
+            },
+            methods:{
+                
+            }
+        })
+    </script>
+</html>
+
 
 
