@@ -62,6 +62,7 @@ transition-group 的主要作用是给其子元素设定一个统一的过渡样
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190425213441.png)
 
 ##   六、组件切换---应用切换动画和mode方式
+(```)
 <!DOCTYPE html>
 <html>
     <head>
@@ -112,6 +113,6 @@ transition-group 的主要作用是给其子元素设定一个统一的过渡样
         })
     </script>
 </html>
-
+(```)
 
 
