@@ -59,7 +59,7 @@ transition-group 的主要作用是给其子元素设定一个统一的过渡样
 
 ##   五、使用Vue提供的<component标签来实现组件切换
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190425213441.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190425225302.png)
 
 ##   六、组件切换---应用切换动画和mode方式
 ```
