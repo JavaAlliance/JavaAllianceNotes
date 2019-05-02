@@ -293,7 +293,7 @@ watch的作用：监听绑定的文本框的数据的变化，一旦变化，就
 ```
 
 运行效果截图：
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100759.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502101229.png)
 
 
 ##  五、computed计算属性的使用
