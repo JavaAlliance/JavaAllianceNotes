@@ -160,7 +160,9 @@
 </html>
 ```
 
-运行效果截图：![1556447695650](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556447695650.png)
+运行效果截图：
+
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100715.png)
 
 
 
@@ -221,7 +223,7 @@ watch的作用：监听绑定的文本框的数据的变化，一旦变化，就
 
 运行效果截图：
 
-![1556521977974](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556521977974.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100739.png)
 
 
 
@@ -292,7 +294,7 @@ watch的作用：监听绑定的文本框的数据的变化，一旦变化，就
 
 运行效果截图：
 
-![1556522959767](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556522959767.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100759.png)
 
 
 
@@ -351,4 +353,4 @@ watch的作用：监听绑定的文本框的数据的变化，一旦变化，就
 
 运行结果截图：  解释一下控制台的两个ok分别是我们输入firstname和lastname而触发fullname对应的function，而我们在上面代码中虽然多次写了<p{{fullname}}</p 但是由于fullname ：function里用到的数据没有发生变化，所以不会触发fullname ：function
 
-![1556526543404](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556526543404.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100821.png)
