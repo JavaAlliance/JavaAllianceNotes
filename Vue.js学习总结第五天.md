@@ -60,7 +60,7 @@
 </html>
 ```
 
-![1556252122194](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556252122194.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100027.png)
 
 
 
@@ -244,7 +244,7 @@
 
 运行效果如下：
 
-![1556337542396](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556337542396.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100101.png)
 
 
 
@@ -378,7 +378,7 @@
 
 运行结果如下：  看浏览器地址栏后面带有一个"#"
 
-![1556353229561](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556353229561.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100130.png)
 
 **问题一：**但是上面每次都要在<a href=“#”里面路径的前面写#号，很麻烦，有没有比较好的解决方法？
 答：可以通过使用 router-link 组件来导航，例如
@@ -496,4 +496,4 @@
 
 运行效果截图：
 
-![1556428423536](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556428423536.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100209.png)
