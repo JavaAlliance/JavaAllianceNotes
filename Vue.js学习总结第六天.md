@@ -297,7 +297,6 @@ watch的作用：监听绑定的文本框的数据的变化，一旦变化，就
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190502100759.png)
 
 
-
 ##  五、computed计算属性的使用
 
 效果：每次我们修改firstname或者lastname 文本框时，fullname文本框也会跟着变化
