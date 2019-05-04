@@ -209,7 +209,7 @@ npm i vue-router -s
 
 然后在main.js中头部写下面3行代码，从node-modules文件夹中导入Vue包和VueRouter包，然后把Vue和VueRouter关联起来
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210401.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210401.png)
 
 然后就可以直接使用vue-router路由了
 
