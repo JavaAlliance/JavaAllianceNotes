@@ -8,13 +8,13 @@
 
 既然Node.js的安装目录都不想放到C盘，那么通过npm下载的包更不想放在C盘。我希望统一管理，把npm全局下载的包都保存到nodejs的根目录下，也就是“D:\nodejs”这个路径下。所以我们就必须做一些响应的设置了。接下来第二步就是解决这个问题的。
 
-**第二步：**修改默认的全局目录
+**第二步：** 修改默认的全局目录
 
 ​     有以下两种方案可以选择：
 
-​      **方法一：** 到node安装目录[D:/nodejs]执行以下命令：
+​      **方法一:**  到node安装目录[D:/nodejs]执行以下命令：
 
-​        **前提条件：**在node安装目录创建`/nodejs/node_global`、`/nodejs/node_cache`两个文件夹存放全局包
+​        **前提条件:** 在node安装目录创建`/nodejs/node_global`、`/nodejs/node_cache`两个文件夹存放全局包
 
 ```
 npm config set prefix D:/nodejs/node_global/ //全局包目录，就在node安装目录新建了个nodejs文件夹存放
@@ -22,7 +22,7 @@ npm config set cache D:/nodejs/node_cache/  //全局包缓存目录，就在node
 
 ```
 
-​    **方法二：**直接修改`C:/Users/[username]/.npmrc`文件的`cache`值和`prefix`值，文件如下：
+​    **方法二：** 直接修改`C:/Users/[username]/.npmrc`文件的`cache`值和`prefix`值，文件如下：
 
 ```
 prefix=D:\node\nodejs\node_global
@@ -30,7 +30,7 @@ cache=D:\node\nodejs\node_cache
 registry=https://registry.npm.taobao.org/
 ```
 
-**第三步：**配置环境变量
+**第三步：** 配置环境变量
 
 计算机->属性->高级系统配置->环境变量->用户变量->编辑`path`,添加`global“目录如下 
 
