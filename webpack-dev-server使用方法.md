@@ -108,7 +108,8 @@ npm install webpack-dev-server --save-dev
 
 再修改webpack.config.js，添加deServer:属性和plugins属性，按下图配置，同时要在webpack.config.js开头添加const webpack=require('webpack')即可
 
- ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214152.png)
+  ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214152.png)
+
 
  ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214210.png)
 
