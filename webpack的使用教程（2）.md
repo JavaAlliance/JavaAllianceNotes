@@ -4,11 +4,11 @@
 
 举例：如下图在index.scss中添加background:url（）,然后在main.js中引入index.scss文件，如果直接使用webpack进行打包编译mian.js会报错，因为如果webpack要处理 非JS类型的文件，我们需要手动安装一些合适的第三方loader加载器
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212714.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212714.png)
 
   在这里我们安装url-loader 和file-loader 加载器
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212817.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212817.png)
 
 然后在webpack.config.js文件的module里写匹配图片后缀名的规则吗，下图中说的base64的作用是把“图片转换成超级超级长的字符串，如下面第2张图”，
 
