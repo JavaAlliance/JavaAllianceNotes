@@ -2,7 +2,7 @@
 
 ##  一、使用vue实例的render方法渲染组件
 
-在讲render方法之前，先引入一个例子 ,如下图
+在讲render方法之前，先引入一个例子 ,如下面代码部分：
 
 ```html
 <html>
@@ -37,9 +37,9 @@
 
 运行结果截图：
 
-![1556946853428](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556946853428.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205732.png)
 
-![1556947384029](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556947384029.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205749.png)
 
 以上是使用components的效果，再div里面使用<login引用组件，不会对div标签有影响（没有让div标签消失）
 
@@ -79,9 +79,9 @@
 
 运行效果截图： 可以看到虽然在div标签里面写了"" <p123456</p"" 但是最终没有显示，从下面第2张图中可以看到，div标签已经消失了，说明了login组件完全代替div标签里的内容（包括div标签在内一起被删除了），整体替换了
 
-![1556947508066](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556947508066.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205810.png)
 
-![1556947611166](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556947611166.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205823.png)
 
 ##   二、在webpack中导入Vue包
 
@@ -95,31 +95,31 @@
 
 **第一步：** 在项目根目录下cmd控制台执行npm i vue -s 来安装vue的包
 
-![1556949593995](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556949593995.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205850.png)
 
 **第二步：** 在main.js中使用import  Vue from 'vue'从node_modules文件夹（该文件夹是使用webpack工具之后生成的）中导入安装的vue包
 
-![1556949805581](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556949805581.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205905.png)
 
-![1556950163686](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556950163686.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205927.png)
 
 但是这样是有问题的，引入的vue包不是完整的，而是vue包的一部分，我们可以按上图中说的去找node_modules包下的vue文件夹，然后找vue文件夹下的package.json配置文件，然后找到main属性，发现main属性是dist/vue.runtime.common.js，意思就是说“当我们使用import  Vue from 'vue'的时候，实质上是导入的/node_modules/vue/dist/vue.runtime.common.js”
 
-![1556950256068](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556950256068.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504205946.png)
 
-![1556950808918](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556950808918.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210002.png)
 
  所以我们的解决办法很简单，第一种是 直接在mian.js里导入具体文件
 
-![1556950996756](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556950996756.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210019.png)
 
  第二种是在webpack.config.js里添加resolve节点进行如下配置
 
-![1556951196901](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556951196901.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210036.png)
 
 然后在main.js里面不做任何修改，直接按原来的import Vue form 'vue'写就好
 
-![1556951319621](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556951319621.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210050.png)
 
 记得修改完以后要重新启动项目
 
@@ -129,11 +129,11 @@
 
 我们一般把components组件代码写在html页面里面，但是如果我们想把这些components组件代码抽取出来单独形成一个文件，文件的后缀名是以.vue结尾的，比如下图，以login.vue为例，以.vue结尾的文件里面只能有三部分，分别是<template,<script,<style，这三部分里面都是写跟components有关的配置，共同组成了一个完整的组件component模块(**解释：**我们这里的一个以.vue结尾的文件，就相当于我们平时经常在new vue对象时在vue对象里面写component属性绑定的一个组件)
 
-![1556953612216](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556953612216.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210113.png)
 
 然后在main.js中通过下面代码引入该文件
 
-![1556953865381](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556953865381.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210130.png)
 
 默认webpack无法直接打包.vue文件，需要安装相应的loader：到项目根路径下进入cmd控制台然后输入下面代码
 
@@ -153,13 +153,13 @@ npm i vue-loader vue-template-compiler -D
 
 先在main.js里面导入我们写的login.vue文件，然后写vue实例对象，并在实例对象里面写render方法，然后在index.html里面导入bundle.js(mian.js被webpack打包后的文件)，之后启动webpack运行访问index.html就可以看到运行结果正是我们期望的，      
 
-![1556955163502](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556955163502.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210155.png)
 
 总结一点：在webpack中，如果想要通过vue，把一个组件放到页面中去展示，可以通过vue中的render方法去实现
 
 梳理：webpack中如何使用vue
 
-![1556957902950](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556957902950.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210214.png)
 
 
 
@@ -169,15 +169,15 @@ export-default和export都是向外暴露的作用
 
 先说export-default吧，看下例子，我们新建一个test.js文件，然后在文件里面定义info对象，然后使用export-default info来暴露该对象
 
-![1556960682673](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556960682673.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210231.png)
 
 这个时候我们在main.js中使用import导入该test.js文件，用m222变量接收test.js中export default暴露的对象
 
-![1556960788619](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556960788619.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210247.png)
 
 然后使用webpack打包部署运行，main.js中的console.log(m222)能够在浏览器端打印出来，如下图所示：
 
-![1556960967319](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556960967319.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210259.png)
 
 **注意：**不能在一个test.js中写多个export default 暴露多个对象，只运行写一次export default 
 
@@ -185,15 +185,15 @@ export-default和export都是向外暴露的作用
 
 虽然我们不能写多个export default ，但是我们可以写多个export呀，如下图，暴露多个变量
 
-![1556961239798](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556961239798.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210316.png)
 
 然后在main.js里面做接收
 
-![1556961378891](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556961378891.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210331.png)
 
 运行结果： 可以看到main.js里面的两行console.log()都能够正常地打印出来了
 
-![1556961449083](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556961449083.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210343.png)
 
 
 
@@ -209,7 +209,7 @@ npm i vue-router -s
 
 然后在main.js中头部写下面3行代码，从node-modules文件夹中导入Vue包和VueRouter包，然后把Vue和VueRouter关联起来
 
-![1556966426797](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556966426797.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210401.png)
 
 然后就可以直接使用vue-router路由了
 
@@ -217,4 +217,4 @@ npm i vue-router -s
 
 ## 六、以.vue结尾的文件中的style标签中的lang属性和scoped属性
 
-![1556967899954](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556967899954.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210418.png)
