@@ -128,7 +128,6 @@
 ##  三、webpack中vue-loader的使用
 
 我们一般把components组件代码写在html页面里面，但是如果我们想把这些components组件代码抽取出来单独形成一个文件，文件的后缀名是以.vue结尾的，比如下图，以login.vue为例，以.vue结尾的文件里面只能有三部分，分别是<template,<script,<style，这三部分里面都是写跟components有关的配置，共同组成了一个完整的组件component模块(**解释：**我们这里的一个以.vue结尾的文件，就相当于我们平时经常在new vue对象时在vue对象里面写component属性绑定的一个组件)
- 
  ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504210113.png)
 
 
