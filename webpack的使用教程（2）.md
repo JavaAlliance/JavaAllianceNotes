@@ -20,11 +20,9 @@
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213035.png)
 
-最后在main.js中引入之后，用webpack-dev-server打包部署，就有可能会产生同名覆盖（因为webpack-dev-server把图片打包部署之后的路径都是项目根目录，所以就会产生同名覆盖），为了避免这个问题，我们可以在
+最后在main.js中引入之后，用webpack-dev-server打包部署，就有可能会产生同名覆盖（因为webpack-dev-server把图片打包部署之后的路径都是项目根目录，所以就会产生同名覆盖），为了避免这个问题，我们可以在webpack.config.js里module中的匹配图片的loader后面 name前加上一个[hash:8]，每张图片的hash值都不一样，所以我们可以取hash值前8位拼接原文件名以及原文件后缀名，这样的话就不会有重复的情况发生了
 
-webpack.config.js里module中的匹配图片的loader后面 name前加上一个[hash:8]，每张图片的hash值都不一样，所以我们可以取hash值前8位拼接原文件名以及原文件后缀名，这样的话就不会有重复的情况发生了
-
- ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213059.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213059.png)
 
 扩展一下字体文件也可以使用url-loader来加载，字体文件的匹配规则如下，以.ttf,.eof.svg.woff.woff2结尾的文件都是字体文件
 
