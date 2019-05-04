@@ -131,7 +131,7 @@ npm install webpack-dev-server --save-dev
 
 解决问题，
 
-**第一步：**先在项目的cmd控制台下执行
+**第一步：** 先在项目的cmd控制台下执行
 
 ```
 npm i style-loader css-loader -D
