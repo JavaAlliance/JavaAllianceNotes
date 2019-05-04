@@ -2,7 +2,7 @@
 
 ##   一、先安装Node.js包
 
-**第一步：**先去 [Node.js官网](https://nodejs.org/en/)下载安装Node.js,傻瓜式安装，一路next
+**第一步:** 先去 [Node.js官网](https://nodejs.org/en/)下载安装Node.js,傻瓜式安装，一路next
 
 虽然我们把Node.js安装在D盘了，但是除了这个目录，其实在C盘的另外一个目录下，还有一个附带生成的目录【C:\Users\用户名\AppData\Roaming\npm】，这个目录是用来存放你通过npm全局安装的包。比如，如果你通过“npm i nrm -g”全局下载nrm这个工具，那么下载的文件就会被保存到“【C:\Users\用户名\AppData\Roaming\npm】”这个目录下。
 
@@ -48,7 +48,7 @@ PATH: D:\node\nodejs\node_global\;
 npm install webpack -g
 ```
 
-![1556783952716](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556783952716.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211715.png)
 
 接下来我们要通过npm命令安装nrm了  :
 
@@ -58,15 +58,15 @@ npm install webpack -g
 npm install -g nrm --registry=https://registry.npm.taobao.org
 ```
 
-![1556785381208](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556785381208.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211743.png)
 
 第一步安装nrm
 
-![1556786105982](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556786105982.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211805.png)
 
 第二步：运行nrm ls 查看nrm给我们提供的镜像有哪些
 
-![1556786130367](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556786130367.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211821.png)
 
 可以看到上面有6个镜像，其中cnpm和taobao是咱们国内的，所以下载速度会快很多，所以我们不从国外的原版
 
@@ -86,7 +86,7 @@ webpack安装的两种方式：
 
 1.运行npm i webpack -g 全局安装webpack，这样就能在全局使用webpack的命令
 
-![1556787357359](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556787357359.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211846.png)
 
 2.在项目根目录中运行npm i webpack --save-dev 安装到项目依赖中
 
@@ -107,19 +107,19 @@ npm install --save-dev webpack-cli -g
 
 举例：我们在hubuilder里面新建一个项目，项目的结构如下： 其中dist目录是用来存放某些文件被webpack编译解析之后的结果（举例：因为有一些ES6语法写的js文件，可能浏览器解析不了，所以需要使用webpack对该js文件进行编译，之后我们使用编译之后的结果即可）
 
-![1556788129680](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556788129680.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211916.png)
 
 我们进入到项目所在位置执行cmd命令，然后执行npm  init -y,  之后会发现项目下多出来一个package.json文件
 
-![1556788341455](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556788341455.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211930.png)
 
 假设我们需要在项目的index.html里面用到jQuery包，那该怎么办呢？我们只需要通过npm工具安装jQuery即可
 
-![1556789418918](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556789418918.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211944.png)
 
 命令执行完之后再刷新项目，会发现多出来了两个文件
 
-![1556789468971](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556789468971.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504211956.png)
 
 然后在main.js里写如下代码 
 
@@ -164,11 +164,11 @@ $(function(){
 
 最后运行在浏览器端运行index.html时，报语法错误如下，说明浏览器不能解析该main.js，原因是因为main.js中的代码涉及到了ES6的语法，浏览器比较低级，解析不了
 
-![1556793048774](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556793048774.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212054.png)
 
 为了解决这个问题，我们使用webpack这个前端构建工具把main.js做一下处理，生成一个bundle.js文件，然后我们使用这个bundle.js文件即可
 
-![1556793298218](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556793298218.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212108.png)
 
 然后我们把index.html里的
 
@@ -184,7 +184,7 @@ $(function(){
 
 之后再运行就可以出真正的结果了，index.html运行结果截图如下：
 
-![1556794457988](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556794457988.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212132.png)
 
 
 
@@ -198,7 +198,7 @@ webpack ./src/main.js  ./dist/bundle.js
 
 首先我们需要在项目的根目录下创建一个webpack.config.js文件
 
-![1556807339911](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556807339911.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212158.png)
 
 代码如下：
 
@@ -217,13 +217,13 @@ module.exports={
 
 这样就OK了，每当我们需要修改main.js后，只需要在项目路径下cmd进入控制台，然后使用webpack命令就可以完成编译打包输出了，不需要在webpack后面写 源文件路径 和输出结果路径了
 
-![1556807537636](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556807537636.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212216.png)
 
 举例，我们把main.js中的”red改成”blue“,然后在项目路径下，使用webpack命令，再去访问index.html时效果如下面第2张图
 
-![1556807701944](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556807701944.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212235.png)
 
-![1556807798239](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556807798239.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212250.png)
 
 
 
@@ -239,6 +239,6 @@ module.exports={
 
 **扩展技能：**我们知道package.json里面的devDependencies下都是本项目所使用的依赖信息，而node_modules文件下是存放本项目下载的所有包（就是根据依赖信息来下载的）
 
-![1556891445531](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556891445531.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504212307.png)
 
 一旦node_modules文件下的包出现残缺或者丢失，可以把项目的node_modules文件删除，然后再在项目的根路径下使用cmd进入控制台然后输入npm i 命令重新根据依赖下载包即可
