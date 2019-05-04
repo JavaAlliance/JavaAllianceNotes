@@ -60,31 +60,31 @@ npm install webpack-dev-server --save-dev
 
 或者是npm run dev命令也行，为了避免出现webpack和webpack-dev-server之间的版本兼容性问题，这里举例按下图配置版本是没有问题的
 
-![1556859861285](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556859861285.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213818.png)
 
 命令行执行成功了
 
-![1556860761319](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556860761319.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213840.png)
 
 到此webpack_dev_server热部署已经启动了，部署的服务器地址在localhost:8080/上，项目也就部署到该地址上了
 
 以本例来说：main.js做以下修改，然后ctrl+s保存，会看到cmd控制台会再次编译成功，截图见下面第2张图
 
-![1556860590004](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556860590004.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213939.png)
 
-![1556860684812](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556860684812.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504213956.png)
 
 然后我们再次访问src下的index.html发现颜色还是red，没有变成blue。继续看下面是如何解决此问题！
 
-![1556860700808](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556860700808.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214013.png)
 
 我们再去看index.html文件，发现引入的js文件是本项目的dist/bundle.js是磁盘上确确实实存在的文件，而我们webpack_dev_server的帮我们重新打包生成的bundle.js文件并没有存放到实际的物理磁盘上（因为是重新编译打包，所以是覆盖原文件bundle.js）；而是直接存放在电脑的内存中，所以我们这里的问题很简单解决，直接把src="../dist/bundle.js"改成src="/bundle.js"即可，src="/bundle.js"中的bundle.js不是从本项目导入的，而是从电脑内存导入的(**解释：因为是webpack_dev_server部署服务器(使用内存空间)地址在localhost:8080,所以可以直接使用"/"来访问，所以“/bundle.js”是从内存导入的**)，
 
-![1556861021677](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556861021677.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214039.png)
 
 修改成src="/bundle.js"之后，就没有问题了，每次我们修改main.js里的代码，只需要ctrl+s保存，然后webpack_dev_server自动编译（热部署），浏览器端就会即时展示新的应用效果
 
-![1556861718014](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556861718014.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214057.png)
 
 
 
@@ -96,7 +96,7 @@ npm install webpack-dev-server --save-dev
 
 下面的--hot参数是“热加载”的意思，就是说我们每次修改要编译的源文件（对修改css文件可以，但是对js文件好像不行）然后ctrl+s保存后，浏览器不重新刷新，而是直接异步加载
 
-![1556862879336](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556862879336.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214113.png)
 
 
 
@@ -104,13 +104,13 @@ npm install webpack-dev-server --save-dev
 
 把原来在package.json中dev:后面的参数部分给删掉，只留下“webpack-dev-server”部分
 
-![1556864256032](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556864256032.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214135.png)
 
 再修改webpack.config.js，添加deServer:属性和plugins属性，按下图配置，同时要在webpack.config.js开头添加const webpack=require('webpack')即可
 
-![1556863914433](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556863914433.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214152.png)
 
-![1556864110033](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556864110033.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214210.png)
 
 
 
@@ -118,9 +118,10 @@ npm install webpack-dev-server --save-dev
 
 因为我们的index.html是存放在磁盘上的，我们如果想把index.html页面也存放到内存中（也用webpack-dev-server部署）去该怎么办呢？这个时候就需要用到html-webpack-plugin插件了
 
-![1556865524794](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556865524794.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214228.png)
 
-在plugins属性中写new htmlWebpackPlugin()对象，然后指定原文件，和要在内存中生成的目标页面的名字即可，这样OK了![1556865729261](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556865729261.png)
+在plugins属性中写new htmlWebpackPlugin()对象，然后指定原文件，和要在内存中生成的目标页面的名字即可，这样OK了
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214244.png)
 
 
 
@@ -138,17 +139,17 @@ npm i style-loader css-loader -D
 
 来安装css加载器
 
-![1556869025717](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556869025717.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214316.png)
 
 具体思路见下图：
 
-![1556867350848](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556867350848.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214332.png)
 
 
 
 **第二步:** 在webpack.config.js里面新增一个module节点，然后进行下图配置
 
-![1556867957213](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556867957213.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214350.png)
 
 到此为止经过配置以后，webpack-dev-server就可以对css文件打包部署了
 
@@ -168,19 +169,19 @@ npm i style-loader css-loader -D
 
 比如再main.js中引入less文件如下，webpack肯定不能直接对此编译和打包部署，所以需要我们在本地项目中安装less-loader，
 
-![1556869276089](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556869276089.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214408.png)
 
 在项目的cmd控制台中输入npm i less-loader -D安装less-loader
 
-![1556869488451](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556869488451.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214425.png)
 
 然后再在项目的cmd控制台中输入npm i less -D安装less
 
-![1556869579423](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556869579423.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214441.png)
 
 然后再在webpack.config.js中的module里配置以.less为结尾的文件的规则，loader的执行规则是从右到左，所以下面配置写的是最右边是less-loader,然后处理完交给css-loader，再然后把处理结果交给style-loader，最后把最终结果交给webpack打包部署。 可以看到loader配置是从右到左的
 
-![1556869683527](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556869683527.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214512.png)
 
 
 
@@ -188,7 +189,7 @@ npm i style-loader css-loader -D
 
 跟上面一样的套路做法，如果再main.js中引入.scss文件
 
-![1556871109238](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556871109238.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214527.png)
 
 解决方法：
 
@@ -198,4 +199,4 @@ npm i style-loader css-loader -D
 
 ③然后在webpack.config.js中的module里配置以.scss为结尾的文件的规则即可
 
-![1556871359531](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1556871359531.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190504214545.png)
