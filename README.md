@@ -47,7 +47,7 @@ Java全栈开发大联盟QQ群：499935538
 
 -[webpack-dev-server使用方法](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/webpack-dev-server%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md)
 
--[webpack的使用教程（2）](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/webpack%E7%9A%84%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89.md)
+-[webpack的使用教程(2)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/webpack%E7%9A%84%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89.md)
 欢迎大家关注我的微信公众号：
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424162437.png)
