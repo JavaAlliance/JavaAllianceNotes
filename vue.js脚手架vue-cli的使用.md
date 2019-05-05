@@ -6,27 +6,27 @@
 
 首先要确保安装了webpack
 
-![1557013335627](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557013335627.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165501.png)
 
 执行结果截图如下：
 
-![1557013410300](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557013410300.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165535.png)
 
 安装成功：
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-ac2a13a62505d1ae.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165553.png)
 
 安装完成之后输入 vue -V（注意这里是大写的“V”），如下图，如果出现相应的版本号，则说明安装成功。
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-d8e864620a0b5aef.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165627.png)
 
 打开C:\Users\Andminster\AppData\Roaming\npm目录下可以看到：
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-9d5e131d9681c0d6.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165650.png)
 
 打开node_modules也可以看到：
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-6e55eb6b7d70ac91.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165709.png)
 
 到这里vue-cli就算是安装完了
 
@@ -36,9 +36,9 @@
 
 ### **①** 我首先在D盘新建一个文件夹（dxl_vue）作为项目存放地，然后使用命令行cd进入到项目目录输入：
 
-![1557013930356](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557013930356.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165732.png)
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-22cf1a5dc4cda33d.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165754.png)
 
 输入命令后，会跳出几个选项让你回答：
 
@@ -60,39 +60,39 @@
 
 **安装依赖**：  （根据上面的输入选项的回答信息install相关的包）
 
-![1557014378444](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557014378444.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165832.png)
 
 ( 如果安装速度太慢。可以安装淘宝镜像，打开命令行工具，输入：
  `npm install -g cnpm --registry=https://registry.npm.taobao.org`
  然后使用`cnpm`来安装 )
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-a5701c92e10ce959.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165853.png)
 
 npm install ：安装所有的模块，如果是安装具体的哪个个模块，在install 后面输入模块的名字即可。而只输入install就会按照项目的根目录下的package.json文件中依赖的模块安装（这个文件里面是不允许有任何注释的），每个使用npm管理的项目都有这个文件，是npm操作的入口文件。因为是初始项目，还没有任何模块，所以我用npm install 安装所有的模块。安装完成后，目录中会多出来一个node_modules文件夹，这里放的就是所有依赖的模块。
 
 然后现在，baoge文件夹里的目录是这样的：
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-84cb6c247eba4438.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165919.png)
 
 解释下每个文件夹代表的意思(仔细看一下这张图）：
 
-![1557014753107](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557014753107.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165940.png)
 
 
 
 ##  三、启动项目 
 
-![1557014791863](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557014791863.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170006.png)
 
 如果浏览器打开之后，没有加载出页面，有可能是本地的 8080 端口被占用，需要修改一下配置文件 config里的index.js
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-3a6a5874d3e8d445.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170024.png)
 
 还有，如果本地调试项目时，建议将build 里的`assetsPublicPath`的路径前缀修改为 ' ./ '（开始是 ' / '），因为打包之后，外部引入 js 和 css 文件时，如果路径以 ' / ' 开头，就会从本地去找，在本地是无法找到对应文件的（服务器上没问题）。所以**如果需要在本地打开打包后的文件**，就得修改文件路径。
 
 我的端口没有被占用，直接成功（服务启动成功后浏览器会默认打开一个“欢迎页面”）：
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-77b13bb61a67b83f.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170043.png)
 
 **注意：在进行vue页面调试时，一定要去谷歌商店下载一个vue-tool扩展程序。**
 
@@ -102,7 +102,7 @@ npm install ：安装所有的模块，如果是安装具体的哪个个模块�
 
 -  从`package.json`可以看到开发和生产环境的入口。
 
-![img](https://upload-images.jianshu.io/upload_images/10868449-255932a94e033291.png?imageMogr2/auto-orient/)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170102.png)
 
 - 可以看到dev中的设置，**build/webpack.dev.conf.js**，该文件是开发环境中webpack的配置入口。
 
@@ -118,11 +118,11 @@ npm install ：安装所有的模块，如果是安装具体的哪个个模块�
 注意，自己的项目文件都需要放到 src 文件夹下。
 在项目开发完成之后，可以输入 `npm run build` 来进行打包工作。
 
-![1557015435092](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557015435092.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170123.png)
 
 另外补充一些常见问题解答如下图：
 
-![1557015488979](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1557015488979.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170142.png)
 
 打包完成后，会生成 dist 文件夹，如果已经修改了文件路径，可以直接打开本地文件查看。
 项目上线时，只需要将 dist 文件夹放到服务器就行了。
