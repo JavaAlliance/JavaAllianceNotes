@@ -22,7 +22,7 @@
 
 打开C:\Users\Andminster\AppData\Roaming\npm目录下可以看到：
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505165650.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190505170307.png)
 
 打开node_modules也可以看到：
 
