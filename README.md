@@ -26,7 +26,7 @@ Java全栈开发大联盟QQ群：**499935538**
 -[面试必问：设计模式篇](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%9D%A2%E8%AF%95%E5%BF%85%E9%97%AE%EF%BC%9A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%AF%87.md)
 
 ## 数据库 :floppy_disk:
--[E-R图的画法]
+-[E-R图的画法](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/E-R%E5%9B%BE%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
 
 ## 其他工具知识 
 -[阿里云oss搭建图床以及使用PicGO上传图片到图床](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91oss%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8PicGO%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A.md)
