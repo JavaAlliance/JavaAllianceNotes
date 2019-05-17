@@ -10,7 +10,7 @@ Git和其他版本控制系统如SVN的一个不同之处就是有暂存区的�
 
 就是你在电脑里能看到的目录，比如D:\JavaAlliance\这个目录就是一个工作区
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190516213846.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190516213846.png)
 
 
 
