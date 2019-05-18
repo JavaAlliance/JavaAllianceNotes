@@ -31,6 +31,8 @@ Java全栈开发大联盟QQ群：**499935538**
 ## 其他工具知识 
 -[阿里云oss搭建图床以及使用PicGO上传图片到图床](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91oss%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8PicGO%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A.md)
 
+-[阿里云服务器的知识](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E7%9F%A5%E8%AF%86.md)
+
 -[Git学习总结第一天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E4%B8%80.md)
 
 -[Git学习总结第二天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
