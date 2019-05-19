@@ -4,7 +4,7 @@
 
 
 
- **第一步：**确保服务器系统处于最新状态（这步操作可有可无）
+ **第一步：** 确保服务器系统处于最新状态（这步操作可有可无）
 
 ```
 [root@localhost ~]# yum -y update
@@ -18,10 +18,10 @@ grub2.x86_64 1:2.02-0.64.el7.centos grub2-tools.x86_64 1:2.02-0.64.el7.centos
 Complete!
 ```
 
- **第二步：**重启服务器（这步操作也可以跳过）
+ **第二步：** 重启服务器（这步操作也可以跳过）
 [root@localhost ~]# reboot
 
-**第三步：**首先检查是否已经安装，如果已经安装先删除以前版本，以免安装不成功
+**第三步：** 首先检查是否已经安装，如果已经安装先删除以前版本，以免安装不成功
 
 [root@localhost ~]# rpm -qa | grep mysql
 或
@@ -35,7 +35,7 @@ rpm -e  --nodeps        mysql-libs-5.1.73-5.e16_6.i686
 
 ​          
 
-**第四步：**下载MySql安装包
+**第四步：** 下载MySql安装包
 
 ```
 rpm -ivh http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
@@ -47,7 +47,7 @@ rpm -ivh http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
 [root@localhost ~]# rpm -ivh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 ```
 
-**第五步：**安装MySql
+**第五步：** 安装MySql
 
 ```
 [root@localhost ~]# yum install -y mysql-server
@@ -58,13 +58,13 @@ rpm -ivh http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
 如果显示以下内容说明安装成功
 Complete!
 
-**第六步：**设置开机启动mysql
+**第六步：** 设置开机启动mysql
 
 ```
  systemctl enable mysqld.service
 ```
 
-**第七步：**检查是否已经安装了开机自动启动
+**第七步：** 检查是否已经安装了开机自动启动
 
 ```
 systemctl list-unit-files | grep mysqld
@@ -73,13 +73,13 @@ systemctl list-unit-files | grep mysqld
 如果显示以下内容说明已经完成自动启动安装
 mysqld.service enabled
 
-**第八步：**设置开启服务
+**第八步：** 设置开启服务
 
 ```
 systemctl start mysqld.service
 ```
 
-**第九步：**查看MySql默认密码
+**第九步：** 查看MySql默认密码
 
 ```
 grep 'temporary password' /var/log/mysqld.log   
@@ -87,13 +87,13 @@ grep 'temporary password' /var/log/mysqld.log
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190519133729.png)
 
-**第十步：**登陆MySql，输入用户名和密码
+**第十步：** 登陆MySql，输入用户名和密码
 
 ```
 mysql -uroot -p       //密码也就是第九步里面查看到的默认密码
 ```
 
-**第十一步：**修改当前用户密码    注意看下面的报错
+**第十一步：** 修改当前用户密码    注意看下面的报错
 
 ```
 mysql>SET PASSWORD = PASSWORD('alliance');  //但是这样会报错的，具体错误看下面
@@ -124,13 +124,13 @@ mysql>SET PASSWORD = PASSWORD('alliance');
 
 
 
-**第十二步：**开启远程登录，授权root远程登录（**解释：不要以为阿里云服务器可以远程登录root用户，就以为我们也可以以mysql的root用户身份远程登录mysql数据库**）
+**第十二步：** 开启远程登录，授权root远程登录（**解释：不要以为阿里云服务器可以远程登录root用户，就以为我们也可以以mysql的root用户身份远程登录mysql数据库**）
 
 ```
 mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'alliance' WITH GRANT OPTION;   //这里的alliance要换成你自己mysql数据库的密码
 ```
 
-**第十三步：**命令立即执行生效
+**第十三步：** 命令立即执行生效
 
 ```
 mysql>flush privileges;//// 这一步一定要做，不然无法成功！ 这句表示从mysql数据库的grant表中重新加载权限数， 因为MySQL把权限都放在了cache中，所以在做完更改后需要重新加载。
