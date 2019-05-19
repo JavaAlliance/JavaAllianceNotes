@@ -118,7 +118,7 @@ mysql>SET PASSWORD = PASSWORD('alliance');  //但是这样会报错的，具体�
 mysql>SET PASSWORD = PASSWORD('alliance'); 
 ```
 
-![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190519142214.png)
+ ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190519142214.png)
 
 成功！
 
