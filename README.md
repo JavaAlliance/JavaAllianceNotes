@@ -33,6 +33,8 @@ Java全栈开发大联盟QQ群：**499935538**
 
 -[阿里云服务器的知识](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E7%9F%A5%E8%AF%86.md)
 
+-[阿里云服务器中安装配置MYSQL数据库完整教程](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%AD%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEMYSQL%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B.md)
+
 -[Git学习总结第一天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E4%B8%80.md)
 
 -[Git学习总结第二天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
