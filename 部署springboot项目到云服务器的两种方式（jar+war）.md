@@ -51,7 +51,7 @@ package会将Maven工程打包成一个可执行的jar文件存放在target目�
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190520093719.png)
 
-鼠标放在该项目上右键，之后点击show in Explorer,展示文件所在目录位置![1558316394911](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558316394911.png)
+鼠标放在该项目上右键，之后点击show in Explorer,展示文件所在目录位置![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190520125719.png)
 
 将jar文件放到服务器合适的目录下，使用rz命令上传
 
