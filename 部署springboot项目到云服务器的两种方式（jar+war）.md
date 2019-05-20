@@ -108,7 +108,7 @@ Spring Boot 默认自带了一个嵌入式的Tomcat服务器，可以以jar方�
 
  
 
-**方式2：**在pom.xml里找到`spring-boot-starter-web`依赖节点，在其中添加如下代码，
+**方式2：** 在pom.xml里找到`spring-boot-starter-web`依赖节点，在其中添加如下代码，
 
 ```
 
