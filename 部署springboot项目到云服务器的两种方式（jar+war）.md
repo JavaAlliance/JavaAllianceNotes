@@ -55,7 +55,7 @@ package会将Maven工程打包成一个可执行的jar文件存放在target目�
 
 将jar文件放到服务器合适的目录下，使用rz命令上传
 
-![1558316785469](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558316785469.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190520125442.png)
 
 
 
