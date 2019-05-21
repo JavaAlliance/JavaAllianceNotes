@@ -37,6 +37,8 @@ Java全栈开发大联盟QQ群：**499935538**
 
 -[在linux服务器上安装java环境](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E5%9C%A8linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85jdk.md)
 
+-[Office2016的安装](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Office%E7%9A%84%E5%AE%89%E8%A3%85.md)
+
 -[Git学习总结第一天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E4%B8%80.md)
 
 -[Git学习总结第二天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
