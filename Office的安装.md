@@ -1,4 +1,4 @@
-# Office的安装
+# Office2016的安装
 
 ##  第一步：先下载office的ISO光盘文件和激活工具microKMS
 
@@ -30,15 +30,15 @@
 
 安装的时候，前面很慢，但是后面进度很快，别急
 
-![1558415242571](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558415242571.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190521133048.png)
 
 然后会提示我们电脑的重启来完成全部的安装，所以我们点击“重启电脑”。
 
 然后点击双击我们的激活工具“microKMS”
 
-![1558416230752](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558416230752.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190521133110.png)
 
 点击“激活Office”，激活成功OK了，至此Office已激活完毕！！！
 
-![1558416189920](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558416189920.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190521133129.png)
 
