@@ -10,7 +10,7 @@
 
 然后选择自定义
 
-![1558413535662](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558413535662.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190521132940.png)
 
 ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190521124920.png)
 
