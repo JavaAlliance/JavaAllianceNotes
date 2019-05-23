@@ -52,6 +52,8 @@ Java全栈开发大联盟QQ群：**499935538**
 
 -[CSS基础学习总结(1)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/CSS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%881%EF%BC%89.md)
 
+-[CSS基础学习总结(2)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/CSS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
+
 -[Vue学习总结第一天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/vue.js%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%AC%E4%B8%80%E5%A4%A9%20(1).md)
 
 -[Vue学习总结第二天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Vue.js%E6%80%BB%E7%BB%93%E7%AC%AC%E4%BA%8C%E5%A4%A9%20(1).md)
