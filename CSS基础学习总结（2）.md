@@ -358,7 +358,7 @@ table, td {
 
  padding属性用于设置内边距。  是指 边框与内容之间的距离。
 
-![1558582921345](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1558582921345.png)
+![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190524120056.png)
 
 padding-top:上内边距
 
