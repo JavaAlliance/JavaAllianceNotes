@@ -39,6 +39,8 @@ Java全栈开发大联盟QQ群：**499935538**
 
 -[Office2016的安装](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Office%E7%9A%84%E5%AE%89%E8%A3%85.md)
 
+-[Office之word知识难点总结](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/word%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.md)
+
 -[Git学习总结第一天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E4%B8%80.md)
 
 -[Git学习总结第二天](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Git%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
