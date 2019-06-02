@@ -34,7 +34,7 @@ ActiveMQ默认启动到8161端口，启动完了后在浏览器地址栏输入�
 
 接下来，介绍一下Queues下的控制台
 
-![1559462866960](C:\Users\19643\AppData\Roaming\Typora\typora-user-images\1559462866960.png)
+<img src="https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190602161441.png"/>
 
 Number Of Pending Messages 等待消费的消息 这个是当前未出队列的数量。可以理解为总接收数-总出队列数
 
