@@ -21,6 +21,8 @@ Java全栈开发大联盟QQ群：**499935538**
 ## JavaWeb :coffee:
 -[SSH,SSM框架部分详解](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/SSM%E6%A1%86%E6%9E%B6%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
+## 分布式 :sweat_drops:
+-[ SpringBoot整合ActiveMq教程](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/SpringBoot%E6%95%B4%E5%90%88ActiveMq%E6%95%99%E7%A8%8B.md)
 
 ## 设计模式 :hammer:
 -[面试必问：设计模式篇](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E9%9D%A2%E8%AF%95%E5%BF%85%E9%97%AE%EF%BC%9A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%AF%87.md)
