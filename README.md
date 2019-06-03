@@ -84,10 +84,8 @@ Java全栈开发大联盟QQ群：**499935538**
 -[ Python基础学习(1)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0.md)
 
 
-欢迎大家关注我的微信公众号：
- ![](https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424115802.png)
-
-
+欢迎大家关注我的微信公众号
+<img src="https://javaalliance.oss-cn-shenzhen.aliyuncs.com/img/20190424115802.png"/>
 
 
 
