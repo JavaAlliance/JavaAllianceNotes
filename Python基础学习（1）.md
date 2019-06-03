@@ -67,9 +67,8 @@ Python就为我们提供了非常完善的基础代码库，覆盖了网络、�
 这是因为Windows会根据一个`Path`的环境变量设定的路径去查找`python.exe`，如果没找到，就会报错。如果在安装时漏掉了勾选`Add Python 3.7 to PATH`，那就要手动把`python.exe`所在的路径添加到Path中。
 
 如果你不知道怎么修改环境变量，建议把Python安装程序重新运行一遍，务必记得勾上`Add Python 3.7 to PATH`。
- 二、Python解释器
 
----
+## 二、Python解释器
 
 当我们编写Python代码时，我们得到的是一个包含Python代码的以.py为扩展名的文本文件。要运行代码，就需要Python解释器去执行.py文件。
 
