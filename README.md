@@ -56,6 +56,8 @@ Java全栈开发大联盟QQ群：**499935538**
 
 -[微信小程序学习总结（1）](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%881%EF%BC%89.md)
 
+-[微信小程序学习总结（2）](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89.md)
+
 ## 前端汇总
 -[HTML5的学习总结(1)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/html5%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93(1).md)
 
