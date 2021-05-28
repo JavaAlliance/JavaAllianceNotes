@@ -90,6 +90,9 @@ Java全栈开发大联盟QQ群：**499935538**
 ## Python  
 -[ Python基础学习(1)](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/Python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0.md)
 
+## 生活感悟
+-[“躺平”可耻？No,不可耻](https://mp.weixin.qq.com/s/rFSfrGy7txK4N1EHHJdtEw)
+
 
 欢迎大家关注我的微信公众号
  ![](![image](![image](https://user-images.githubusercontent.com/31822188/119976331-8aafe300-bfe9-11eb-890c-810731924ebf.png)))
