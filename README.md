@@ -23,6 +23,7 @@ Java全栈开发大联盟QQ群：**499935538**
 
 ## 分布式 :sweat_drops:
 -[ SpringBoot整合ActiveMq教程](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/SpringBoot%E6%95%B4%E5%90%88ActiveMq%E6%95%99%E7%A8%8B.md)
+-[都2021年了，你还不懂幂等性问题的解决方案？](https://mp.weixin.qq.com/s/jbTNQ0SMPUqZsMzppSGtHg)
 
 ## Linux 
   -[在Linux上使用ActiveMQ](https://github.com/JavaAlliance/JavaAllianceNotes/blob/master/%E5%9C%A8Linux%E4%B8%8A%E4%BD%BF%E7%94%A8ActiveMQ.md)
