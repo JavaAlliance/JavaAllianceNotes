@@ -33,7 +33,7 @@ Java全栈研发大联盟QQ群：**499935538**
 -[ 都2021年了，你还不懂幂等性问题的解决方案？](https://mp.weixin.qq.com/s/jbTNQ0SMPUqZsMzppSGtHg)
 
 ## 计算机网络 :cloud:
--[ 学学计网也不错呀，Bingo!]（https://mp.weixin.qq.com/s/c1_cSisCDImBhT0kitH7eg）
+-[ 学学计网也不错呀，Bingo!](https://mp.weixin.qq.com/s/c1_cSisCDImBhT0kitH7eg)
 
 ## 数据机构和算法 ✏️
 -[ 位运算的奇“赢”技巧](https://mp.weixin.qq.com/s/KIPyTPsLRnLl6lNGjkMH1A)
